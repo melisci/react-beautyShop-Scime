@@ -10,7 +10,7 @@ const NavBar = () => {
     <>    
   <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#"><img src="./assets/logo.png" alt="logo BeautyShop" height="100" width="200"/></Navbar.Brand>
+        <Navbar.Brand href="#"><img src="./assets/logo.png" alt="logo BeautyShop" height="90" width="180"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,9 +18,9 @@ const NavBar = () => {
             style={{ maxHeight: '50px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Inicio</Nav.Link>
-            <Nav.Link href="#action2">Novedades</Nav.Link>
-            <NavDropdown title="Productos" id="navbarScrollingDropdown">
+            <Nav.Link href="#action1" className="underline">Inicio</Nav.Link>
+            <Nav.Link href="#action2" className="underline">Novedades</Nav.Link>
+            <NavDropdown title="Productos" id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#action3">Perfumes</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action4">

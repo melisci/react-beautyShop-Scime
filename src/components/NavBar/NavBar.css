@@ -2,3 +2,25 @@
     font-size: 1.8rem;
     margin-right: 2rem;
 }
+.underline{
+    display: inline-block;
+    position: relative;
+    color: #333;
+    text-decoration: none;
+    }
+.underline:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+    }
+.underline:hover:after {
+    width: 100%;
+    background: #333;
+    }
+
+    .navbar{
+        box-shadow: 1px 1px 8px #999;
+    }
