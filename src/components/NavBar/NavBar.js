@@ -4,13 +4,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import CartWidget from './CartWidget'
 const NavBar = () => {
     return(
     <>    
   <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#"><img src="./assets/logo.png" alt="logo BeautyShop" height="100" width="250"/></Navbar.Brand>
+        <Navbar.Brand href="#"><img src="./assets/logo.png" alt="logo BeautyShop" height="100" width="200"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -31,21 +31,19 @@ const NavBar = () => {
                 Skin Care
               </NavDropdown.Item>
             </NavDropdown>
+            
+         
            
+            
+       
           </Nav>
-          
+          <CartWidget className="justify-content-end"/>
         </Navbar.Collapse>
         
         
       </Container>
     </Navbar>
-    <Navbar bg="light" expand="lg">
-      <Container fluid>
-       
-
-        
-      </Container>
-    </Navbar>
+   
 </>
             
        
