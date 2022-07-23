@@ -1,0 +1,6 @@
+.flex{
+    display: flex;
+    margin: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
