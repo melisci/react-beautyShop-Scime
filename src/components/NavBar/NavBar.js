@@ -28,9 +28,11 @@ const NavBar = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Skin Care
+                SkinCare
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#action6" className="underline">Productos Promo</Nav.Link>
+            <Nav.Link href="#action7" className="underline">Contacto</Nav.Link>
             
          
            

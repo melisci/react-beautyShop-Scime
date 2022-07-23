@@ -1,8 +1,11 @@
+import ItemProduct from "../ItemProduct/ItemProduct"
+
 const ItemListContainer = ({greeting}) => {
     return(
     <>   
-    <h2>Producto 1</h2>
+    <h2>Productos en Promoción</h2>
     <p>{greeting} </p>
+    <ItemProduct />
     </>
 
      )
