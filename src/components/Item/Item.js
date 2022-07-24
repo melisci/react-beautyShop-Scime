@@ -23,7 +23,7 @@ const Item = ({data}) => {
                 <span className='bold'>$ {price}</span>
               
             </div> 
-        <ItemCount />
+        <ItemCount stock={stock} />
         </div> 
         
     )

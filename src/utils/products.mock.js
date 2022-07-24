@@ -5,7 +5,7 @@ const products = [
         description:"Crema para el cuerpo con vitamina c",
         price: 1500,
         pictureUrl:"LidhermaRadiancremacorporal.png",
-        stock: 5
+        stock: 3
     },
     {
         id:2,
@@ -21,7 +21,7 @@ const products = [
         description:"Leche de limpieza para el rostro",
         price: 500,
         pictureUrl:"LidhermaLimpiezaChico.png",
-        stock: 5
+        stock: 15
     },
     {
         id:4,
@@ -29,7 +29,7 @@ const products = [
         description:"Contorno de ojos mejora bolsas y ojeras",
         price: 900,
         pictureUrl:"LidhermaTriSilk.png",
-        stock: 5
+        stock: 12
     },
     {
         id:5,
@@ -37,7 +37,7 @@ const products = [
         description:"Pads con ácido mandélico y Salicílico",
         price: 1500,
         pictureUrl:"LidhermaUltraRenovaPads.png",
-        stock: 5
+        stock: 2
     },
     {
         id:6,
@@ -45,7 +45,7 @@ const products = [
         description:"Serum muy hidratante",
         price: 3500,
         pictureUrl:"AcfDadatina.png",
-        stock: 5
+        stock: 8
     },
  
 ]

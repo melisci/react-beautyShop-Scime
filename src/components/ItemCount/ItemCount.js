@@ -1,8 +1,9 @@
 import './ItemCount.css'
 import { useState } from 'react'
-const ItemCount = ({action}) => {
+
+const ItemCount = ({action, stock}) => {
     const [counter, setCounter] = useState(1)
-    const stock = 5
+    
     const addNumber = () => {
         if (counter < stock){
         setCounter (counter + 1)
