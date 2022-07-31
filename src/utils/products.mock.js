@@ -42,7 +42,7 @@ const products = [
     {
         id:6,
         title: "ACF - Dadatina Vol 1",
-        description:"Serum muy hidratante",
+        description:"Fórmula apta para todo tipo de piel, incluyendo las sensibles. Sin ingredientes irritantes, colorantes o fragancias. Otorga balance y humectación a tu piel. Reduce la inflamación y/o enrojecimiento. Ayuda a controlar el acné y brinda luminosidad.",
         price: 3500,
         pictureUrl:"AcfDadatina.png",
         stock: 8

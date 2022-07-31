@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnCarrousel{
+    display: flex;
+    flex-direction: column;
+    max-width: 8rem;
+   
+}
+.columnCarrousel img{
+    margin-bottom: 0.4rem;
+}
+button{
+    border-style: none;
+}
+
+.item-detail{
+    margin: 3rem 6rem;
+    border: 1px solid #F0BDD3;
+    padding: 3rem;
+    border-radius: 5px;
+}
+.description{
+    max-width: 45rem;
+}
+.bold{
+    font-weight: bolder;
+}
+.showProduct img{
+    max-width: 60%;
+}
+.showProduct{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+

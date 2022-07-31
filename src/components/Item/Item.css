@@ -1,6 +1,5 @@
 .item-product {
-    
-    
+       
     box-shadow: 1px 1px 5px #afafaf47;
     border: 10px;
     display: flex;
@@ -24,6 +23,7 @@
 }
 .detail-product > p:nth-of-type(1) {
     border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
     margin: 0;
     padding: 10px 0px;
     text-transform: uppercase;
@@ -32,7 +32,6 @@
 }
 .detail-product > p:nth-of-type(2), .detail-product > p:nth-of-type(3) {
     font-size: 12px;
-    /* font-weight: 100; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,4 +39,5 @@
 }
 .bold {
     font-weight: bolder;
+    
  }
