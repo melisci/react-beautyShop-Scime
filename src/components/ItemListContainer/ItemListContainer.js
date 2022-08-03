@@ -7,7 +7,7 @@ const ItemListContainer = ({greeting}) => {
     
     const [listProducts, setListProducts] = useState([])
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+   
     const getProducts = new Promise( (resolve) => {
         setTimeout( () => {
             resolve(products)
@@ -21,8 +21,7 @@ const ItemListContainer = ({greeting}) => {
             .catch( (error) => { 
                 
             })
-            .finally( () => { // Siempre que termina por OK o Fallo
-            //setSpinner(false) 
+            .finally( () => { 
             })
     }, [getProducts])
     return(
