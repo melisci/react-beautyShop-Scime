@@ -2,11 +2,12 @@
 import ItemCount from '../ItemCount/ItemCount'
 import './ItemDetail.css'
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 /* import { Link } from 'react-router-dom' */
 const ItemDetail = ({data}) => {
   
     const [show, setShow] = useState(true);
-    
+    const [quantitySelected, setQuantitySelected] = useState(0)
     
 
 
@@ -36,8 +37,11 @@ const ItemDetail = ({data}) => {
                 <h2>{data.title}</h2>
                 <p className="description"> {data.description} Fórmula apta para todo tipo de piel, incluyendo las sensibles. Sin ingredientes irritantes, colorantes o fragancias. Otorga balance y humectación a tu piel. Reduce la inflamación y/o enrojecimiento. Ayuda a controlar el acné y brinda luminosidad.</p>
                 <p className='bold'>Productos en stock: {data.stock}</p>
-                <span className='bold'>$ {data.price}</span>
-                <ItemCount stock={data.stock} />
+                <span className='bold'>$ {data.price}</span><br/>
+                {console.log("quantitySelected: ", quantitySelected)}
+    {
+        quantitySelected > 0 ? <button className="terminar"><Link to="/cart">TERMINAR COMPRA</Link></button> : <ItemCount stock={data.stock} setQuantitySelected={setQuantitySelected} productData={data}/>
+    }
             </div> 
     
         </div> 

@@ -37,4 +37,16 @@ button{
     align-items: center;
     display: flex;
 }
+.terminar{
+    border: 2px solid #e3e3e3;
+    border-radius: 2px;
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.terminar:hover{
+    border: 2px solid #F0BDD3;
+    background-color: #E7CDD8;
 
+}
