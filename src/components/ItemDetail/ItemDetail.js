@@ -35,7 +35,7 @@ const ItemDetail = ({data}) => {
       )}
             <div className='itemdescription'>
                 <h2>{data.title}</h2>
-                <p className="description"> {data.description} Fórmula apta para todo tipo de piel, incluyendo las sensibles. Sin ingredientes irritantes, colorantes o fragancias. Otorga balance y humectación a tu piel. Reduce la inflamación y/o enrojecimiento. Ayuda a controlar el acné y brinda luminosidad.</p>
+                <p className="description"> {data.description} </p>
                 <p className='bold'>Productos en stock: {data.stock}</p>
                 <span className='bold'>$ {data.price}</span><br/>
                 {console.log("quantitySelected: ", quantitySelected)}

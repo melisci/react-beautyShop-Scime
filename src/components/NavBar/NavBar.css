@@ -27,3 +27,39 @@
     .navbar{
         box-shadow: 1px 1px 8px #999;
     }
+.dropdown-menu.show{
+    margin-left: -18rem;
+    display: flex !important;
+    flex-direction: column;
+}
+.dropdown-menu.show button{
+    margin-bottom: 10px;
+}
+.item-cart-product{
+    display: flex;
+    max-width: 50%;
+}
+.item-cart-product img{
+    width: 5rem;
+    }
+.qty-display {
+        position: absolute;
+        right: 4rem;
+        border: 1px solid #F0BDD3;
+        background-color: #E7CDD8;
+        padding: 1px;
+        font-size: 11px;
+        font-weight: bolder;
+        border-radius: 50%;
+        width: 18px;
+     height: 18px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     text-align: center;
+    }
+
+
+    .nav-link{
+        color: rgba(65, 62, 62) !important;
+
+    }

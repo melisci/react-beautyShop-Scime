@@ -6,10 +6,11 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Detail from './pages/Detail';
 import Checkout from './pages/Checkout';
-
+import CartProvider from './Context/CartContext';
 
 function App() {
   return (
+    <CartProvider>
     <BrowserRouter>
       <div className="App">
         <NavBar />
@@ -27,6 +28,7 @@ function App() {
 
       </div>
     </BrowserRouter>
+    </CartProvider>
   );
 }
 
