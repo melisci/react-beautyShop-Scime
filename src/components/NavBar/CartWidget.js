@@ -1,4 +1,4 @@
-import {useContext} from 'react'
+import {useContext, useState} from 'react'
 import {CartFill} from "react-bootstrap-icons";
 import { CartContext } from '../../Context/CartContext';
 import './NavBar.css' 
@@ -11,9 +11,10 @@ const CartWidget = () => {
     
 
     const { cartProducts, clear, deleteProduct, totalProducts } = useContext(CartContext)
+ 
     return(
         <>
-    {cartProducts.length !== 0 && <p>{totalProducts}</p>}
+    {cartProducts.length !== 0 }
     <div className="qty-display">{cartProducts.length}</div>
     <NavDropdown title={<CartFill className="cartWidget"/>} id="basic-nav-dropdown">
     
