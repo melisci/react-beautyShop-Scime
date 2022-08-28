@@ -21,7 +21,7 @@ const NavBar = () => {
           >
             <Nav.Link href="/" className="underline">Inicio</Nav.Link>
             <Nav.Link href="#action2" className="underline">Novedades</Nav.Link>
-            <NavDropdown href="/productos" title="Productos" id="navbarScrollingDropdown" >
+            {/* <NavDropdown href="/productos" title="Productos" id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#action3">Perfumes</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action4">
@@ -31,7 +31,7 @@ const NavBar = () => {
               <NavDropdown.Item href="#action5">
                 SkinCare
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
             <Nav.Link href="/contacto" className="underline">Contacto</Nav.Link>
             
          
