@@ -92,7 +92,7 @@ const Cart = () => {
             <div className="info-checkout">
                 {console.log("order: ", order)}
                 
-                <span>TOTAL ({totalProducts} productos)  <b>$ {totalPrice}</b></span>
+                <span>TOTAL ({cartProducts.length} productos)  <b>$ {totalPrice}</b></span>
                 
                 <div className="container-checkout-products">
                     {cartProducts.map( (cartProduct) => {
