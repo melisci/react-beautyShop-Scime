@@ -89,7 +89,9 @@ const Cart = () => {
  
     return(
         <div className="checkout-page">
+            <div>
             <div className="info-checkout">
+
                 {console.log("order: ", order)}
                 
                 <span>TOTAL ({cartProducts.length} productos)  <b>$ {totalPrice}</b></span>
@@ -119,6 +121,7 @@ const Cart = () => {
                         </div>
                     </div>
                 </div>
+                </div>
                 {showModal && 
                     <Modal title="DATOS DE CONTACTO" close={() => setShowModal()}>
                         {success ? (
@@ -131,21 +134,21 @@ const Cart = () => {
                                 <input 
                                     type='text' 
                                     name='name' 
-                                    placeholder='Ingrese el nombre'
+                                    placeholder='Nombre y apellido'
                                     onChange={handleChange}
                                     value={formData.name}
                                 />
                                 <input 
                                     type='number' 
                                     name='phone' 
-                                    placeholder='Ingrese el telefono' 
+                                    placeholder='Teléfono' 
                                     value={formData.phone}
                                     onChange={handleChange}
                                 />
                                 <input 
                                     type='email' 
                                     name='email' 
-                                    placeholder='Ingrese el mail'
+                                    placeholder='Correo electrónico'
                                     value={formData.email}
                                     onChange={handleChange}
 
